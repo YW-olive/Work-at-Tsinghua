@@ -1,8 +1,8 @@
 Á½Ì×:
-LA1399-A
-LA1384-A
-LC1093-Ac
-LA1401-A
+LA1399-A  f = 175.0 mm
+LA1384-A  f = 125.0 mm
+LC1093-Ac f = -100.0 mm
+LA1401-A  f = 60.0 mm
 
 
 SM2M35
