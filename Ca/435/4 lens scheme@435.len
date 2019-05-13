@@ -1,0 +1,129 @@
+// OSLO 6.4 52377 64293  9024
+LEN NEW "No name" 27.406 11
+EBR  9.0
+GIH  0.1
+DES  "wang yu"
+UNI  1.0
+// SRF 0
+AIR 
+TH   1.0e+20
+AP  3.648791326e+17
+NXT  // SRF 1
+GLA BK7       
+TH   3.5
+AP  12.7
+NXT  // SRF 2
+AIR 
+RD   25.7
+TH   13.0835208194604
+AP  12.7
+NXT  // SRF 3
+GLA BK7       
+RD   61.0
+TH   4.7
+AP  12.7
+NXT  // SRF 4
+AIR 
+RD   -61.0
+TH   2.8488958515127
+AP  12.7
+NXT  // SRF 5
+GLA BK7       
+RD   30.9
+TH   4.7
+AP  12.7
+AST 
+NXT  // SRF 6
+AIR 
+TH   0.3
+AP  12.7
+NXT  // SRF 7
+GLA BK7       
+RD   32.1
+TH   3.6
+AP  12.7
+NXT  // SRF 8
+AIR 
+RD   82.2
+TH   4.0
+AP  12.7
+NXT  // SRF 9
+GLA FCA88-66  
+TH   4.0
+AP  12.7
+NXT  // SRF 10
+AIR 
+PY   0.0
+AP  12.7
+NXT  // SRF 11
+AIR 
+CBK  1
+WV 0.435
+WW 1.0
+END  11
+DLRS 3
+DLNR  2 0
+SDAD 41.0
+SDSA On
+OPDF 1.0e-08
+OPSS On
+OPOC "opcb_abs"
+VAR NEW
+V 1 2 0 TH 0.2 27.0 1.0 0.0009
+V 2 4 0 TH 0.2 29.0 1.0 0.0009
+V 3 6 0 TH 0.2 29.0 1.0 0.0009
+END
+RST NEW
+F 1 0.0 0.0 0.0 0.0 0.0 -1.0 1.0 -1.0 1.0 1.0 0 0
+F 2 0.7 0.0 0.0 0.0 0.0 -0.9 0.9 -0.8 0.8 1.0 0 0
+F 3 1.0 0.0 0.0 0.0 0.0 -0.8 0.8 -0.7 0.7 1.0 0 0
+R 1 REF 0.0 0.0 1.0
+R 2 1.0 0.0 1.0
+R 3 -1.0 0.0 1.0
+R 4 0.0 1.0 1.0
+END
+OPE NEW
+O 1 "0.0066666666667" 0.0 "_Dy tol"
+O 2 "0.014" 0.0 "_2.1 Dy"
+O 3 "0.0186666666667" 0.0 "_2.8 Dy"
+O 4 "0.02" 0.0 "_3 Dy"
+O 5 "0.0266666666667" 0.0 "_4 Dy"
+O 6 "1.9969869725" 0.0 "_up Dy/3"
+O 7 "19.171074936" 0.0 "_3.2 up Dy"
+O 8 "PU+0.332049008853" 0.0 "_uprime"
+O 9 "O8/0.0001" 1.0 "Fnb diff"
+O 10 "DYY(1,1)/O4" 1.0 "Focus diff"
+O 11 "DY(1,2)/O1" 1.0 "Axial DY"
+O 12 "OPD(1,2)/O6" 1.0 "Axial OPD"
+O 13 "DMD(1,2)/O6" 1.0 "Axial DMD"
+O 14 "1.0" 0.0 "_0.7 Dstol"
+O 15 "100.0*DIST(2,1)" 0.0 "_0.7 Dist"
+O 16 "O15/O14" 1.0 "0.7 Dist"
+O 17 "DYY(2,1)/O2" 1.0 "0.7 YFS"
+O 18 "DXX(2,1)/O2" 1.0 "0.7 XFS"
+O 19 "S2T(2,1)/O7" 1.0 "0.7 Coma"
+O 20 "DY(2,2)/O3" 1.0 "0.7 DY U"
+O 21 "OPD(2,2)/O6" 1.0 "0.7 OPD U"
+O 22 "DMD(2,2)/O6" 1.0 "0.7 DMD U"
+O 23 "DY(2,3)/O3" 1.0 "0.7 DY L"
+O 24 "OPD(2,3)/O6" 1.0 "0.7 OPD L"
+O 25 "DMD(2,3)/O6" 1.0 "0.7 DMD L"
+O 26 "DX(2,4)/O3" 1.0 "0.7 Sag DX"
+O 27 "DY(2,4)/O1" 1.0 "0.7 Sag DY"
+O 28 "OPD(2,4)/O6" 1.0 ".7 Sag OPD"
+O 29 "1.0" 0.0 "_1.0 Dstol"
+O 30 "100.0*DIST(3,1)" 0.0 "_1.0 Dist"
+O 31 "O30/O29" 1.0 "1.0 Dist"
+O 32 "DYY(3,1)/O4" 1.0 "1.0 YFS"
+O 33 "DXX(3,1)/O1" 1.0 "1.0 XFS"
+O 34 "S2T(3,1)/O7" 1.0 "1.0 Coma"
+O 35 "DY(3,2)/O5" 1.0 "1.0 DY U"
+O 36 "OPD(3,2)/O6" 1.0 "1.0 OPD U"
+O 37 "DMD(3,2)/O6" 1.0 "1.0 DMD U"
+O 38 "DY(3,3)/O5" 1.0 "1.0 DY L"
+O 39 "OPD(3,3)/O6" 1.0 "1.0 OPD L"
+O 40 "DMD(3,3)/O6" 1.0 "1.0 DMD L"
+O 41 "DX(3,4)/O5" 1.0 "1.0 Sag DX"
+O 42 "DY(3,4)/O1" 1.0 "1.0 Sag DY"
+O 43 "OPD(3,4)/O6" 1.0 "1 Sag OPD"
+END
